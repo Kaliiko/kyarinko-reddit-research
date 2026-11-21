@@ -7,7 +7,8 @@ It searches about 10 music and art subreddits for public posts from the past wee
 - **Read-only.** It doesn't post, vote, comment, message or moderate.
 - **Small.** One run a week, about 170 search requests spaced 1.2 s apart (about 4 minutes).
 - **Stores very little:** title, first 500 characters of text, score, comment count, date, link. No usernames, no comments, no profiles, nothing from NSFW posts.
-- **Not shared.** Results stay on my machine. I don't quote posts or show usernames in videos, sell the data, or use it to train AI or ML models.
+- **Where the data goes:** the raw file stays on my laptop and gets deleted after 8 weeks. Each week an AI assistant (Claude, with model training turned off) reads it and writes me a short private summary of common problems, paraphrased, with links and no usernames. Only that summary goes into my private notes repo.
+- **Not shared or sold.** I don't quote posts or show usernames in videos, sell or license the data, or use it to train AI or ML models.
 - **Auth:** application-only OAuth (`client_credentials`) with a descriptive User-Agent. Keys live in `~/.config/kyarinko/reddit.json`, never in this repo.
 
 ## Run
