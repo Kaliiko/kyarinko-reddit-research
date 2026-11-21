@@ -1,0 +1,11 @@
+{
+  "days": "week",
+  "per_query": 25,
+  "top_n": 40,
+  "subreddits": ["WeAreTheMusicMakers", "musicproduction", "edmproduction", "composer", "makinghiphop", "ableton", "artbusiness", "ArtistLounge", "freelance", "WeAreTheArtMakers"],
+  "queries": [
+    "how do I start", "never finish", "can't finish", "never satisfied", "first commission",
+    "commissions", "freelance", "make money", "full time", "no one listens", "no views",
+    "not getting plays", "give up", "motivation", "burnout", "how to get clients", "pricing"
+  ]
+}
